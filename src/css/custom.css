@@ -6,22 +6,23 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #7F77DD;
-  --ifm-color-primary-dark: #6B63D4;
-  --ifm-color-primary-darker: #6059CE;
-  --ifm-color-primary-darkest: #534AB7;
-  --ifm-color-primary-light: #9490E6;
-  --ifm-color-primary-lighter: #AFA9EC;
-  --ifm-color-primary-lightest: #CECBF6;
-  --ifm-background-color: #EEEDFE;
-  --ifm-navbar-background-color: #EEEDFE;
-  --ifm-footer-background-color: #26215C;
-  --ifm-heading-color: #26215C;
-  --ifm-font-color-base: #534AB7;
-  --ifm-link-color: #0F6E56;
-  --ifm-link-hover-color: #1D9E75;
+  --ifm-color-primary: #AFA9EC;
+  --ifm-color-primary-dark: #9490E6;
+  --ifm-color-primary-darker: #7F77DD;
+  --ifm-color-primary-darkest: #6B63D4;
+  --ifm-color-primary-light: #CECBF6;
+  --ifm-color-primary-lighter: #EEEDFE;
+  --ifm-color-primary-lightest: #FAFAFE;
+  --ifm-background-color: #26215C;
+  --ifm-navbar-background-color: #26215C;
+  --ifm-footer-background-color: #3C3489 !important;
+  --ifm-heading-color: #EEEDFE;
+  --ifm-font-color-base: #CECBF6;
+  --ifm-link-color: #32d8b4;
+  --ifm-link-hover-color: #4fddbf;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-code-background: #8EC7D2;
+  --docusaurus-highlighted-code-line-bg: #rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -42,6 +43,39 @@
 }
 
 .table-of-contents__link {
+  color: #FFFFFF !important;
+}
+
+.table-of-contents__link:hover {
+  color: #32d8b4 !important;
+}
+
+.table-of-contents__link--active {
+  color: #32d8b4 !important;
+}
+
+/* claude light palette
+:root {
+  --ifm-color-primary: #7F77DD;
+  --ifm-color-primary-dark: #6B63D4;
+  --ifm-color-primary-darker: #6059CE;
+  --ifm-color-primary-darkest: #534AB7;
+  --ifm-color-primary-light: #9490E6;
+  --ifm-color-primary-lighter: #AFA9EC;
+  --ifm-color-primary-lightest: #CECBF6;
+  --ifm-background-color: #EEEDFE;
+  --ifm-navbar-background-color: #EEEDFE;
+  --ifm-footer-background-color: #26215C;
+  --ifm-heading-color: #26215C;
+  --ifm-font-color-base: #534AB7;
+  --ifm-link-color: #0f6e56;
+  --ifm-link-hover-color: #1d9e75;
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: #8EC7D2;
+  --docusaurus-highlighted-code-line-bg: #rgba(0, 0, 0, 0.1);
+}
+
+.table-of-contents__link {
   color: #26215C !important;
 }
 
@@ -52,3 +86,60 @@
 .table-of-contents__link--active {
   color: #0F6E56 !important;
 }
+*/
+
+/* claude bold and dark palette
+:root {
+  --ifm-color-primary: #AFA9EC;
+  --ifm-color-primary-dark: #9490E6;
+  --ifm-color-primary-darker: #7F77DD;
+  --ifm-color-primary-darkest: #6B63D4;
+  --ifm-color-primary-light: #CECBF6;
+  --ifm-color-primary-lighter: #EEEDFE;
+  --ifm-color-primary-lightest: #FAFAFE;
+  --ifm-background-color: #26215C;
+  --ifm-navbar-background-color: #26215C;
+  --ifm-footer-background-color: #3C3489;
+  --ifm-heading-color: #FFFFFF;
+  --ifm-font-color-base: #CECBF6;
+  --ifm-link-color: #32d8b4;
+  --ifm-link-hover-color: #4fddbf;
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: #8EC7D2;
+  --docusaurus-highlighted-code-line-bg: #rgba(0, 0, 0, 0.1);
+}
+
+.table-of-contents__link {
+  color: #FFFFFF !important;
+}
+
+.table-of-contents__link:hover {
+  color: #32d8b4 !important;
+}
+
+.table-of-contents__link--active {
+  color: #32d8b4 !important;
+}
+*/
+
+/* emily palette
+:root {
+  --ifm-color-primary: #360259;
+  --ifm-color-primary-dark: #2D014B;
+  --ifm-color-primary-darker: #24013D;
+  --ifm-color-primary-darkest: #1B0130;
+  --ifm-color-primary-light: #9F8EB5;
+  --ifm-color-primary-lighter: #B6A9C8;
+  --ifm-color-primary-lightest: #CEC5DA;
+  --ifm-background-color: #360259;
+  --ifm-navbar-background-color: #360259;
+  --ifm-footer-background-color: #07485B;
+  --ifm-heading-color: #e6e2ec;
+  --ifm-font-color-base: #e6e2ec;
+  --ifm-link-color: #E3BA5F;
+  --ifm-link-hover-color: #DBA507;
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: #8EC7D2;
+  --docusaurus-highlighted-code-line-bg: #rgba(0, 0, 0, 0.1);
+}
+*/
