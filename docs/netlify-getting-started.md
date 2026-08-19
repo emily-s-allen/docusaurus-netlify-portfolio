@@ -46,16 +46,6 @@ Netlify will attempt to auto-detect your build settings based on your static sit
 
 If Netlify detects your static site generator correctly, these fields may already be populated. Verify them before proceeding.
 
-## Step 3: Configure Build Settings
-
-Netlify will attempt to auto-detect your build settings based on your static site generator. Review the following fields and confirm or update them as needed:
-
-- **Branch to deploy:** The branch Netlify will monitor for changes. This is typically `main`.
-- **Build command:** The command Netlify runs to build your site. Default commands are `npm run build` for Docusaurus, `hugo` for Hugo, and `jekyll build` for Jekyll. If your project uses a custom build script, add that command here.
-- **Publish directory:** The folder containing your built site files that Netlify will serve. For Docusaurus, this is `build`. For Hugo and Jekyll, this is `public`.
-
-If Netlify detects your static site generator correctly, these fields may already be populated. Before proceeding, it is recommended you verify the settings are correct.
-
 ## Troubleshooting
 
 ### Broken links error
