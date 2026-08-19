@@ -43,15 +43,15 @@
 }
 
 .table-of-contents__link {
-  color: #FFFFFF !important;
+  color: #26215C !important;
 }
 
 .table-of-contents__link:hover {
-  color: #32d8b4 !important;
+  color: #0F6E56 !important;
 }
 
 .table-of-contents__link--active {
-  color: #32d8b4 !important;
+  color: #0F6E56 !important;
 }
 
 /* claude light palette
