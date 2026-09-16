@@ -4,12 +4,13 @@ date: 2026-09-03
 slug: skill-styleguide-and-claude
 authors: yourname
 tags: [ai-docs, claude, skill-file, style-guide, api-documentation, workflow, editorial-process]
+hide_table_of_contents: true
 ---
 I learn best by doing, and even better visually. I’ve done a lot of reading and research learning about AI Tech Writing workflows, but I hit the point where I wanted to see it with my own two eyes. So, inspired by seeing it across job descriptions, I set out to organize my own AI documentation workflow. And what better place to experiment than in my API docs portfolio. An endpoint document seems fairly straightforward. 
 
 If you just want to see the files I used or the end result, those are linked here: 
-- [SKILL.md](/files/SKILL.md)
-- [STYLEGUIDE.md](/files/STYLEGUIDE.md)
+- [SKILL.md](/files/SKILL.txt)
+- [STYLEGUIDE.md](/files/STYLEGUIDE.txt)
 - [The Final Draft](#the-final-draft)
 
 If you’re interested in my process, my workflow and editorial decisions, and/or my commentary, stay here. 
@@ -28,6 +29,10 @@ I purposely kept the style guide fairly simple, defining voice and audience and 
 
 ## The First Draft
 Skill and style guide files in hand, it’s time for the first draft. I created a new Claude project for a clean slate and briefly told it what I was looking for – write an API endpoint guide based on information I give you and instructions found in the `SKILL.md` and `STYLEGUIDE.md` files I uploaded to the project. Claude confirmed it found the files with a brief summary and prompted me for some information before it started. I provided it with the request URL, the optional and required parameters, and the real response body I had retrieved using Postman. It pretty quickly parsed through the information and returned this draft:
+
+<details>
+
+<summary>View the AI Draft</summary>
 
 # Get Similar Movies
 
@@ -142,7 +147,10 @@ Authorization: Bearer {your_token}
     "total_pages": 12183,
     "total_results": 243646
 }
+
 ```
+
+</details>
 
 ## My Initial Take
 
@@ -166,9 +174,15 @@ One of the biggest changes I’d like to experiment with is to add a section for
 
 With each pass I’ll tinker with both my skill and style guide files, making additions and adjustments as needed. I’ll add an instruction about listing default values, and keeping field types limited to a single word (and I could even provide a pre-defined list of options for it to use). And I’ll make each file more robust by adding examples for the AI to reference.
 
+In my next experiment, I also want to try out AI as a reviewer. By crafting specific personas I want to see if the AI will identify any gaps I may have missed, or prompt me to provide clarity as needed.
+
 All-in-all I’m really glad I undertook this experiment. For me, the value of hands-on experience cannot be overemphasized. 
 
 ## The Final Draft
+
+<details>
+
+<summary>View the Final Draft</summary>
 
 # Get Similar Movies
 
@@ -284,3 +298,5 @@ Authorization: Bearer {your_token}
     "total_results": 243646
 }
 ```
+
+</details>

@@ -13,4 +13,5 @@ API and developer documentation had long piqued my interest, so when I decided t
 I'm currently looking for a remote technical writer role focused on API and developer documentation, where I can create content that makes users at any level feel like it was written for them.
 
 [Come find me on LinkedIn](https://www.linkedin.com/in/esallen/)
+
 [Check out my API Docs Portfolio](https://emily-allen-portfolio.readme.io/docs/getting-started)

@@ -54,6 +54,12 @@
   color: #0F6E56 !important;
 }
 
+details summary ~ * h1,
+details summary ~ * h2,
+details summary ~ * h3 {
+  color: #FFFFFF !important;
+}
+
 /* claude light palette
 :root {
   --ifm-color-primary: #7F77DD;
