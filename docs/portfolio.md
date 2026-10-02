@@ -60,7 +60,7 @@ Tutorial style videos I created to guide users through a specific task, or provi
 
 For these videos, I wrote and revised the scripts; generated and edited the audio using Camtasia's native AI functionality; recorded the screencast; edited the audio and video together; and, added annotations. Links will open in Vimeo.
 
-[Video Portfolio: Elevate Standards Alignment App Basics →](https://vimeo.com/1227874464?share=copy&fl=sv&fe=ci)
+[Video Portfolio: Elevate Standards Alignment - App Basics →](https://vimeo.com/1227874464?share=copy&fl=sv&fe=ci)
 
 [Video Portfolio: Elevate Standards Alignment - Aligning by Standard →](https://vimeo.com/1227874613?share=copy&fl=sv&fe=ci)
 

@@ -22,36 +22,57 @@
   --ifm-link-hover-color: #1d9e75;
   --ifm-code-font-size: 95%;
   --ifm-code-background: #8EC7D2;
-  --docusaurus-highlighted-code-line-bg: #rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+/* Dark mode: claude bold and dark palette.
+   html[data-theme='dark'] matches Infima's own dark selector, so these win by load order. */
+html[data-theme='dark'] {
+  --ifm-color-primary: #AFA9EC;
+  --ifm-color-primary-dark: #9490E6;
+  --ifm-color-primary-darker: #7F77DD;
+  --ifm-color-primary-darkest: #6B63D4;
+  --ifm-color-primary-light: #CECBF6;
+  --ifm-color-primary-lighter: #EEEDFE;
+  --ifm-color-primary-lightest: #FAFAFE;
+  --ifm-background-color: #26215C;
+  --ifm-background-surface-color: #26215C;
+  --ifm-navbar-background-color: #26215C;
+  --ifm-footer-background-color: #3C3489;
+  --ifm-heading-color: #FFFFFF;
+  --ifm-font-color-base: #CECBF6;
+  --ifm-link-color: #32d8b4;
+  --ifm-link-hover-color: #4fddbf;
+  --ifm-code-background: #3C3489;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-[class*="authorSocialIcon"] {
+[data-theme='light'] [class*="authorSocialIcon"] {
   --dark: #0F6E56 !important;
   --light: #0F6E56 !important;
 }
 
-.table-of-contents__link {
+[data-theme='dark'] [class*="authorSocialIcon"] {
+  --dark: #32d8b4 !important;
+  --light: #32d8b4 !important;
+}
+
+[data-theme='light'] .table-of-contents__link {
   color: #26215C !important;
 }
 
-.table-of-contents__link:hover {
+[data-theme='light'] .table-of-contents__link:hover,
+[data-theme='light'] .table-of-contents__link--active {
   color: #0F6E56 !important;
 }
 
-.table-of-contents__link--active {
-  color: #0F6E56 !important;
+[data-theme='dark'] .table-of-contents__link {
+  color: #FFFFFF !important;
+}
+
+[data-theme='dark'] .table-of-contents__link:hover,
+[data-theme='dark'] .table-of-contents__link--active {
+  color: #32d8b4 !important;
 }
 
 details summary ~ * h1,
