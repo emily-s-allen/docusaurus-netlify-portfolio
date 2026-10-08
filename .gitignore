@@ -21,3 +21,7 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# Local reference files (not for the site or repo)
+/netlify-docusaurus-edits.md
+/.claude/

@@ -90,6 +90,7 @@ const config = {
         },
         items: [
           {to: '/docs/portfolio', label: 'Portfolio', position: 'left'},
+          {to: '/docs/learning', label: 'Learning', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/about', label: 'About', position: 'left'},
           {
@@ -108,6 +109,10 @@ footer: {
         {
           label: 'Portfolio',
           to: '/docs/portfolio',
+        },
+        {
+          label: 'Learning',
+          to: '/docs/learning',
         },
         {
           label: 'Blog',
