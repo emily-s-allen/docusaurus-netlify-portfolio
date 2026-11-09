@@ -25,7 +25,7 @@ From 2025 to 2026, I invested in deliberate upskilling in API documentation, doc
 
 ## AI & Large Language Models
 
-**[AI Fundamentals Skill Track](https://www.datacamp.com/statement-of-accomplishment/track/d6c3b3d53b124993cc9f5baa1865f25a5dbe5122) — DataCamp, Statement of Accomplishment**
+**[AI Fundamentals Certification](https://www.datacamp.com/skill-verification/AIF0027037829368) — DataCamp**
 
 - [Large Language Models (LLMs) Concepts](https://www.datacamp.com/statement-of-accomplishment/course/dc8465e8ab564327465077038963531fb4ad9ad9)
 - [Generative AI Concepts](https://www.datacamp.com/statement-of-accomplishment/course/7c326fe3e5fe92fc07da2bd558c619c1538cd90a)
